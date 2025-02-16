@@ -162,6 +162,9 @@ header ul a {
     margin-bottom: 40px;
     font-size: 20px;
 }
+.hero-info-title p{
+    font-size: 20px;
+}
 
 .hero-info button {
     color: white;
@@ -369,9 +372,6 @@ header ul a {
     bottom: 12%;
 }
 
-.card:nth-child(3) h1 {
-    bottom: 21%;
-}
 
 .card:nth-child(4) {
     grid-column: span 2;
@@ -381,9 +381,54 @@ header ul a {
     max-width: 650px;
 }
 
+.card:nth-child(3) h1,
 .card:nth-child(4) h1 {
-    bottom: 35%;
+    bottom: auto;
+    top: 5%; /* Adjust the position to make it visible */
+    left: 5%;
+    font-size: 25px;
+    z-index: 10; /* Ensure it's above other elements */
+    color: lightgray;
 }
+.card:nth-child(3) {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers all elements */
+    justify-content: space-between; /* Distributes space evenly */
+    text-align: center;
+    height: 83vh;
+    padding: 20px; /* Add padding for spacing */
+    box-sizing: border-box;
+}
+
+.card:nth-child(3) h1 {
+    font-size: 28px;
+    color: lightgray;
+    margin-bottom: 20px; /* Space below h1 */
+}
+
+.card:nth-child(3) video {
+    width: 80%; /* Adjust width */
+    max-width: 350px;
+    height: auto;
+    margin-bottom: 20px; /* Space below video */
+}
+
+.card:nth-child(3) p {
+    font-size: 18px;
+    color: gray;
+    max-width: 80%;
+    line-height: 24px;
+    margin-bottom: 20px; /* Space before button */
+}
+
+.card:nth-child(3) button {
+    position: relative;
+    bottom: 0;
+}
+
+
+
 
 .my-projects {
     display: flex;
@@ -450,7 +495,6 @@ header ul a {
 }
 
 .project-info p {
-     font-size: 18px;
     width: 90%;
     max-width: 400px;
     min-width: 300px;
@@ -458,6 +502,7 @@ header ul a {
     margin-top: 0;
     font-family: Bruno Ace, sans-serif;
     font-weight: bold;
+    font-size: 18px;
 }
 
 .project-info button {
@@ -572,7 +617,6 @@ header ul a {
     line-height: 23px;
     font-family: Bruno Ace, sans-serif;
     font-weight: bold;
-    font-size:20px;
 }
 
 .slider {
