@@ -1,3 +1,6 @@
+*{
+    font-family: Forum, sans-serif;
+}
 body {
     margin: 0;
     padding: 0;
@@ -452,6 +455,8 @@ header ul a {
     min-width: 300px;
     margin-bottom: 50px;
     margin-top: 0;
+    font-family: Bruno Ace, sans-serif;
+    font-weight: bold;
 }
 
 .project-info button {
@@ -541,6 +546,7 @@ header ul a {
     max-width: 300px;
     margin-top:50px ;
     padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .coder {
@@ -563,6 +569,8 @@ header ul a {
 
 .skills-box p {
     line-height: 23px;
+    font-family: Bruno Ace, sans-serif;
+    font-weight: bold;
 }
 
 .slider {
@@ -640,3 +648,23 @@ header ul a {
     transform: translateY(0);
 }
 
+button {
+    font-size: 20px; /* Increase font size */
+    padding: 15px 30px; /* Increase button size */
+    border-radius: 10px; /* Rounded corners */
+    background-color: #72a1de; /* Button color */
+    color: white; /* Text color */
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button i {
+    font-size: 24px; /* Increase icon size */
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: #5b8acb; /* Darker shade on hover */
+    transform: scale(1.05);
+}
