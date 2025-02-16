@@ -450,6 +450,7 @@ header ul a {
 }
 
 .project-info p {
+     font-size: 18px;
     width: 90%;
     max-width: 400px;
     min-width: 300px;
@@ -571,6 +572,7 @@ header ul a {
     line-height: 23px;
     font-family: Bruno Ace, sans-serif;
     font-weight: bold;
+    font-size:20px;
 }
 
 .slider {
